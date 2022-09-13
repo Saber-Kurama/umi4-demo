@@ -9,6 +9,7 @@
     "start": "npm run dev"
   },
   "dependencies": {
+    "@ant-design/icons": "^4.7.0",
     "@formily/antd": "^2.2.3",
     "@formily/core": "^2.2.3",
     "@formily/react": "^2.2.3",

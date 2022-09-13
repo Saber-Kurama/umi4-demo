@@ -1,6 +1,7 @@
 lockfileVersion: 5.3
 
 specifiers:
+  '@ant-design/icons': ^4.7.0
   '@formily/antd': ^2.2.3
   '@formily/core': ^2.2.3
   '@formily/react': ^2.2.3
@@ -13,7 +14,8 @@ specifiers:
   umi: ^4.0.19
 
 dependencies:
-  '@formily/antd': 2.2.3_fc1173896e704440323fccefd0e3efde
+  '@ant-design/icons': 4.7.0
+  '@formily/antd': 2.2.3_790b3a6ff8d029818080a90e3f7a5a87
   '@formily/core': 2.2.3
   '@formily/react': 2.2.3_51276148cee7ba8b9f4a89c71ab19bc4
   antd: 4.23.1
@@ -790,7 +792,7 @@ packages:
       - '@types/react'
     dev: false
 
-  /@formily/antd/2.2.3_fc1173896e704440323fccefd0e3efde:
+  /@formily/antd/2.2.3_790b3a6ff8d029818080a90e3f7a5a87:
     resolution: {integrity: sha512-lm120u8O+o6v9TxRck/xNLGmQPLg5FHhqn9Vg5vMnLHNfZZXXAGpXcszPx8ebxFZZ7XOrahwZ6mw0n4B7+Xp+g==}
     engines: {npm: '>=3.0.0'}
     peerDependencies:
@@ -807,6 +809,7 @@ packages:
       '@types/react-dom':
         optional: true
     dependencies:
+      '@ant-design/icons': 4.7.0
       '@formily/core': 2.2.3
       '@formily/grid': 2.2.3_typescript@4.8.3
       '@formily/json-schema': 2.2.3_typescript@4.8.3
